@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* nav bar  */
+
+
+
+.nav-link {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+  
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Style the active class, and buttons on mouse-over */
+  .active, .nav-link:hover {
+    text-decoration: underline;
+    color:black;
+  }
+
+
+
+h4{
+    font-family: Georgia;
+    font-size: small;
+    padding: 10px;
+}
+h5,h3,h2{
+    font-family: 'Great Vibes', cursive; 
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center!important;
+    display: flex;
+    justify-content: center;
+   
+}
+.text-white{
+    font-family: 'Great Vibes', cursive !important; 
+}
+span,b {
+    font-family: 'Great Vibes', cursive; ;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center  !important;
+    padding: 5px;
+    color: black;
+}
+.main{
+   padding-inline-start: 666px !important;
+    justify-content: space-between!important;
+
+    
+}
+
+@media only screen and (max-width:360px){
+    .main{
+        padding-inline-start: 0px !important;
+         justify-content: space-between!important;
+     
+         
+     }
+    
+}
+
+@media only screen and (max-width:420px){
+    .main{
+        padding-inline-start: 0px !important;
+         justify-content: space-between!important;
+     
+         
+     }
+    
+}
+
+@media only screen and (max-width:720px){
+    .main{
+        padding-inline-start: 0px !important;
+         justify-content: space-between!important;
+     
+         
+     }
+    
+}
+
+@media (max-width:360px){
+    .carousel-item img {
+        width: 90%;
+        height: 20%;
+        display: flex!important;
+        justify-content: center!important;
+        text-align: center!important;
+    }
+    
+}
+
+.nav-link{
+    padding: 20px !important;
+    font-family: Georgia;
+}
+
+.carousel-item img{
+    width: 80%;
+    height: 50%;
+    display: flex!important;
+    justify-content: center!important;
+    text-align: center!important;
+}
+
+.img-fluid{
+ width: 20% !important;
+ display: flex;
+ align-items: center !important;
+
+}
+
+.btn-outline-light:hover{
+ background-color: none;
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
+  
+  /****************Features Categories*********************/
+.Categories{
+    margin:55px;
+    }
+    
+@media only screen and (min-width:360px){
+    .Categories{
+        margin:-12px;
+        }
+    
+}
+    .small-container{
+       margin: 55px;
+       width: 100%;
+    }
+    div.row{
+        padding: 30px;
+        text-align: center;
+    }
+    .col-3{
+        flex-basis: 30%;
+      min-width: 250px;
+      margin-bottom: 30px;
+      
+    }
+    .col-3 img{
+        width: 80%;
+    }
+    @media(max-width:360px) {
+        .col-3 img{
+            width: 100%;
+        }
+    }
+    .col-3 :hover{
+        transform: translateY(-5px);
+    }
+
+    button{
+   padding: 10px;
+   background-color: crimson;
+   border-radius: 10%;
+   border: 2px solid black;
+  
+    }
+button a{
+    text-decoration: none !important;
+    color: white;
+   font-family: Georgia;
+   font-weight: bold;
+    
+}
+    /* //button */
+    .seebtn{
+      display: flex !important;
+      text-align: center !important;
+      justify-content: center;
+      margin-bottom: 70px;
+     
+    }
+    .line span h1 b{
+        border-bottom:2px solid black;
+    }
+       
+
+    p.black{
+        color:#777;
+        padding: 3px;
+        font-family: Georgia, 'Times New Roman';
+    }
